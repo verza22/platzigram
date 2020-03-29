@@ -25,7 +25,7 @@ SECRET_KEY = '_a(^$1n8k90@f*@qon)n8-yux404vn1^3mu*v0+$jm99_d!06x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['zuritab.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -131,3 +131,5 @@ STATICFILES_DIRS = (
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+LOGIN_URL = '/users/login/'
